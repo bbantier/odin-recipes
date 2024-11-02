@@ -1,0 +1,48 @@
+* {
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+body {
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #5d8d99;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.5em;
+    text-align: justify;
+    margin: 10px 40px;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+ul li {
+    list-style-type: circle;
+}
+
+ol li {
+    list-style-type: ;
+}
+
+ol li::marker {
+    font-weight: bold;
+    color: #5d8d99;
+}
+
+img {
+    margin: 20px auto;
+    margin-left: 35%;
+    height: auto;
+    width: 30%;
+    border-radius: 15px;
+}
