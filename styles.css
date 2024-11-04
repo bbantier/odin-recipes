@@ -46,3 +46,18 @@ img {
     width: 30%;
     border-radius: 15px;
 }
+
+.recipe-list-item {
+    margin: 0 auto;
+    font-size: 1.2em;
+    list-style-type: none;
+    padding: 10px;
+    display: inline-block;
+    background-color: #5d8d99;
+}
+
+.recipe-list-item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
